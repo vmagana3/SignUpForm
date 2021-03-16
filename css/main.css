@@ -55,7 +55,7 @@ body #mainContainer #rightContainer #formContainer {
   display: flex;
   flex-direction: column;
   margin-top: 3%;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 4% 0% 4% 0%;
   background-color: aliceblue;
 }
@@ -76,7 +76,7 @@ body #mainContainer #rightContainer #formContainer #buttonSend {
   width: 87%;
   border: none;
   padding: 2%;
-  border-radius: 3px;
+  border-radius: 5px;
   align-self: center;
   color: aliceblue;
   font-weight: bold;
@@ -90,6 +90,58 @@ body #mainContainer #rightContainer p {
 }
 body #mainContainer #rightContainer p a {
   color: #ff7a7a;
+}
+
+@media (max-width: 375px) {
+  body {
+    display: flex;
+  }
+  body #mainContainer {
+    flex-direction: column;
+  }
+  body #mainContainer #leftContainer {
+    width: 100%;
+    align-self: center;
+  }
+  body #mainContainer #leftContainer #textLeftBold {
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 0;
+    text-align: center;
+  }
+  body #mainContainer #leftContainer #textLeftRight {
+    font-size: 16px;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 15%;
+  }
+  body #mainContainer #rightContainer {
+    width: 90%;
+    align-self: center;
+    padding: 10% 0% 10% 0%;
+    border-radius: 10px;
+  }
+  body #mainContainer #rightContainer #buttonTitle {
+    width: 90%;
+    padding: 5% 20% 5% 20%;
+    margin: 0% 0% 5% 0%;
+    font-size: medium;
+    align-self: center;
+  }
+  body #mainContainer #rightContainer #formContainer {
+    width: 100%;
+    align-self: center;
+  }
+  body #mainContainer #rightContainer #formContainer .input {
+    padding: 2%;
+  }
+  body #mainContainer #rightContainer #formContainer #buttonSend {
+    width: 90%;
+    padding: 5%;
+  }
+  body #mainContainer #rightContainer #formContainer p {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
