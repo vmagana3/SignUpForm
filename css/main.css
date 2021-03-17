@@ -50,6 +50,10 @@ body #mainContainer #rightContainer #buttonTitle {
 body #mainContainer #rightContainer #buttonTitle a {
   font-weight: 100;
 }
+body #mainContainer #rightContainer #buttonTitle:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
 body #mainContainer #rightContainer #formContainer {
   width: 75%;
   display: flex;
@@ -68,6 +72,10 @@ body #mainContainer #rightContainer #formContainer .input {
   border: 0.5px solid #b9b6d3;
   align-self: center;
 }
+body #mainContainer #rightContainer #formContainer .input:focus {
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px #6055a5;
+  outline: none;
+}
 body #mainContainer #rightContainer #formContainer .input::placeholder {
   padding-left: 20px;
   font-weight: bold;
@@ -81,6 +89,10 @@ body #mainContainer #rightContainer #formContainer #buttonSend {
   color: aliceblue;
   font-weight: bold;
   background-color: #38cc8c;
+}
+body #mainContainer #rightContainer #formContainer #buttonSend:hover {
+  transform: scale(1.02);
+  cursor: pointer;
 }
 body #mainContainer #rightContainer p {
   font-size: 10px;

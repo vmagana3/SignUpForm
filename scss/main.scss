@@ -63,6 +63,10 @@ body
                     font-weight: 100;                    
                 }
             }
+            #buttonTitle:hover{
+                transform: scale(1.02);  
+                cursor: pointer;                                             
+            }
 
             #formContainer
             {
@@ -72,7 +76,7 @@ body
                 margin-top: 3%;   
                 border-radius: 10px;    
                 padding: 4% 0% 4% 0%;              
-                background-color: aliceblue;                          
+                background-color: aliceblue;                         
                 .input
                 {
                     width: 85%;
@@ -81,7 +85,11 @@ body
                     border-radius: 6px;
                     border: none;
                     border: 0.5px solid $GrayishBlue; 
-                    align-self: center;
+                    align-self: center;                                      
+                }
+                .input:focus{                    
+                    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px $Blue;
+                    outline: none;                                                                       
                 }
 
                 .input::placeholder {                     
@@ -98,6 +106,10 @@ body
                     color: aliceblue;
                     font-weight: bold;
                     background-color: $Green;                    
+                }
+                #buttonSend:hover{
+                    transform: scale(1.02); 
+                    cursor: pointer;                                                                                                                                                                                        
                 }
             }
             p
