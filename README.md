@@ -1,6 +1,7 @@
 # Sign up form component
 ## Description
-SignUp component to log users on a web app, this component include the respective validations when users types some text
+SignUp component to log users on a web app, this component include the respective validations when users types some text.
+See this proyect on: https://vmagana3.github.io/SignUpForm/
 
 ## Preview
 ![Signup Form Component](./images/Preview.PNG)
